@@ -177,7 +177,7 @@ def main():
     pcdv.add_semantic_dataframe(data)
     pcdv.align_gravity(angle_deg=45, axis="y")
     pcdv.colorize_by_axis(axis="z")
-    pcdv.darken_point_cloud(factor=0.5)
+    pcdv.darken_point_cloud(factor=0.8)
     pcdv.visualize()
 
 if __name__ == "__main__":
